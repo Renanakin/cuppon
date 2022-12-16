@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+ 
+}
+.navbar {
+    background: green;
+    width: 100vw;
+   
+}
+
+#navegacion {
+    background-color:#28A745;
+    width: 100%;
+    height: 120px;
+    margin: 0 0 20px 0;
+   
+}
+
+#menunav {
+    margin-left: 70%;
+}
+
+#menunav li a {
+    color: #fff;
+}
+
+.ubication {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    gap: 10px;
+}
+
+.ubication i {
+    font-size: 15px;
+}
+
+.ubication p {
+    text-align: left;
+    align-items: flex-start;
+    font-size: 10px;
+}
+
+.price {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    border-top: .5px solid grey;
+    padding: 5px 10px;
+    
+}
+
+.price .green {
+    color: green;
+    font-size: 18px;
+}
+
+.price .normal {
+    font-size: 14px;
+    opacity: .5;
+        
+}
+
+.card-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 14px;
+    text-align: left;
+    align-items: flex-start;
+   margin: 5;
+    
+}
+
+
+/*formulario*/
+
+#formulario {
+    background-color: #28A745;
+    color: #f8f9fa;
+
+}
+
+#nombre {
+    font-family: 'Roboto light', sans-serif;
+    width: 100%;
+    height: 40pt;
+    border-color: #707070;
+
+}
+#correo_electronico {
+    font-family: 'Roboto light', sans-serif;
+    width: 100%;
+    height: 40pt;
+    border-color: #707070;
+    
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 12px;
+}
+
+#footer {
+    background-color: #fff;
+    color: #707070;
+    text-align: left;
+    width: 100%;
+    height: 184px;
+
+}
+
+#footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#footer .container img {
+    width: 82pt;
+    height: 24pt;
+    display: block;
+    margin: 0 auto;
+
+}
